@@ -1,1 +1,3 @@
-Edit this file to change your mod's support info, or delete it if you don't need it.
+# Thank you for using my mod!!!
+
+You can help me reporting issues on my github if you find one

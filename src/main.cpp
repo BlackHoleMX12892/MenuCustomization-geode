@@ -16,7 +16,6 @@ class $modify(MyMenuLayer, MenuLayer) {
 		auto disableMainMenu = Mod::get()->getSettingValue<bool>("disable-main-menu");
 		auto disableRightSideMenu = Mod::get()->getSettingValue<bool>("disable-right-side-menu");
 		auto disableSocialMediaMenu = Mod::get()->getSettingValue<bool>("disable-social-media-menu");
-		auto disableBottomMenu = Mod::get()->getSettingValue<bool>("disable-bottom-menu");
 		auto disableMoreGamesMenu = Mod::get()->getSettingValue<bool>("disable-more-games-menu");
 
 		if (disableCloseMenu == true)
@@ -72,13 +71,6 @@ class $modify(MyMenuLayer, MenuLayer) {
 			auto socialMediaMenu = this->getChildByID("social-media-menu");
 
 		    socialMediaMenu->setVisible(false);
-		}
-
-		if (disableBottomMenu == true)
-		{
-			auto bottomMenu = this->getChildByID("bottom-menu");
-
-			bottomMenu->setVisible(false);
 		}
 		
 

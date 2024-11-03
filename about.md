@@ -1,3 +1,3 @@
-# Template Mod
+# Menu Customization
 
-Edit about.md to change this
+Use the settings to show and hide things from the screen

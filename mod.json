@@ -1,5 +1,5 @@
 {
-	"geode": "3.8.1",
+	"geode": "3.9.0",
 	"gd": {
 		"win": "2.206",
 		"android": "2.206",
@@ -8,9 +8,23 @@
 	},
 	"id": "blackholemx.menucustomization",
 	"name": "MenuCustomization",
-	"version": "v1.0.0",
+	"version": "v1.0.0-beta.1",
 	"developer": "BlackHoleMX",
 	"description": "Modify the menus!!!",
+	"repository": "https://github.com/BlackHoleMX12892/MenuCustomization-geode",
+	"dependencies": [
+		{
+			"id": "geode.node-ids",
+			"version": ">=1.16.0",
+			"importance": "required"
+		}
+	],
+	"tags": ["offline", "interface", "customization"],
+	"issues": {
+		"info": "You can report issues in the github repository",
+		"url": "https://github.com/BlackHoleMX12892/MenuCustomization-geode/issues"
+	},
+	"early-load": true,
 	"settings": {
 		"menu-layer": {
 			"type": "title",
@@ -62,13 +76,6 @@
 			"type": "bool",
 			"name": "Disable social media menu",
 			"description": "Removes the social media menu from MenuLayer",
-			"default": false,
-			"requires-restart": true
-		},
-		"disable-bottom-menu": {
-			"type": "bool",
-			"name": "Disable bottom menu",
-			"description": "Removes the bottom menu from MenuLayer",
 			"default": false,
 			"requires-restart": true
 		},
