@@ -1,0 +1,83 @@
+{
+	"geode": "3.8.1",
+	"gd": {
+		"win": "2.206",
+		"android": "2.206",
+		"mac": "2.206",
+		"ios": "2.206"
+	},
+	"id": "blackholemx.menucustomization",
+	"name": "MenuCustomization",
+	"version": "v1.0.0",
+	"developer": "BlackHoleMX",
+	"description": "Modify the menus!!!",
+	"settings": {
+		"menu-layer": {
+			"type": "title",
+			"name": "MenuLayer"
+		},
+		"disable-close-menu": {
+			"type": "bool",
+			"name": "Disable close button",
+			"description": "Removes close menu from the MenuLayer",
+			"default": false,
+			"requires-restart": true
+		},
+		"disable-main-title": {
+			"type": "bool",
+			"name": "Disable main title",
+			"description": "Removes the main title from MenuLayer",
+			"default": false,
+			"requires-restart": true
+		},
+		"disable-player-username": {
+			"type": "bool",
+			"name": "Disable player username",
+			"description": "Removes the player username from MenuLayer",
+			"default": false,
+			"requires-restart": true
+		},
+		"disable-profile-menu": {
+			"type": "bool",
+			"name": "Disable profile menu",
+			"description": "Removes the profile menu from MenuLayer",
+			"default": false,
+			"requires-restart": true
+		},
+		"disable-main-menu": {
+			"type": "bool",
+			"name": "Disable main menu",
+			"description": "Removes the main menu from MenuLayer",
+			"default": false,
+			"requires-restart": true
+		},
+		"disable-right-side-menu": {
+			"type": "bool",
+			"name": "Disable right side menu",
+			"description": "Removes the right side menu from MenuLayer",
+			"default": false,
+			"requires-restart": true
+		},
+		"disable-social-media-menu": {
+			"type": "bool",
+			"name": "Disable social media menu",
+			"description": "Removes the social media menu from MenuLayer",
+			"default": false,
+			"requires-restart": true
+		},
+		"disable-bottom-menu": {
+			"type": "bool",
+			"name": "Disable bottom menu",
+			"description": "Removes the bottom menu from MenuLayer",
+			"default": false,
+			"requires-restart": true
+		},
+		"disable-more-games-menu": {
+			"type": "bool",
+			"name": "Disable More Games",
+			"description": "Removes more games from the MenuLayer",
+			"default": false,
+			"requires-restart": true
+		}
+	}
+}
